@@ -2,14 +2,462 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kazeem Ayomide Hammed</title>
+
+    <meta
+        name="description"
+        content="Kazeem Ayomide Hammed — multidisciplinary creative professional specializing in digital marketing, brand strategy, graphic design, print production, and communication."
+    >
+
+    <meta name="author" content="Kazeem Ayomide Hammed">
+
+    <meta property="og:title" content="Kazeem Ayomide Hammed">
+    <meta
+        property="og:description"
+        content="Personal portfolio and professional profile of Kazeem Ayomide Hammed."
+    >
+    <meta property="og:type" content="website">
+
+    <title>Kazeem Ayomide Hammed — Creative Professional</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Kazeem Ayomide Hammed</h1>
-    <p>Personal Brand &amp; Portfolio</p>
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                KAH.
+            </a>
+
+            <button
+                class="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#expertise">Expertise</a>
+                </li>
+
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    Creative Professional · Brand · Communication
+                </p>
+
+                <h1>
+                    Kazeem Ayomide Hammed
+                </h1>
+
+                <h2>
+                    I help ideas become clearer, stronger, and more memorable.
+                </h2>
+
+                <p class="hero-description">
+                    I work across digital marketing, brand strategy,
+                    graphic design, print production, and communication
+                    to help people and businesses show up with intention.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#work" class="button button-primary">
+                        View My Work
+                    </a>
+
+                    <a href="#contact" class="button button-secondary">
+                        Let's Connect
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section id="about" class="section about">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    About Me
+                </p>
+
+                <h2>
+                    Building clarity through creativity.
+                </h2>
+
+            </div>
+
+            <div class="about-content">
+
+                <p>
+                    I didn't begin with a title. I started by figuring out
+                    how to make ideas clear.
+                </p>
+
+                <p>
+                    Over time, my work has moved through digital marketing,
+                    brand strategy, graphic design, print production,
+                    and communication. On paper, they may look like
+                    separate disciplines. In practice, they all connect
+                    around one goal: making communication work better.
+                </p>
+
+                <p>
+                    I believe strong brands are not only seen.
+                    They are understood, remembered, and trusted.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EXPERTISE
+        ========================== -->
+
+        <section id="expertise" class="section expertise">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    Expertise
+                </p>
+
+                <h2>
+                    What I bring to the table.
+                </h2>
+
+            </div>
+
+            <div class="expertise-grid">
+
+                <article class="expertise-card">
+
+                    <span class="card-number">01</span>
+
+                    <h3>
+                        Digital Marketing
+                    </h3>
+
+                    <p>
+                        Helping brands communicate, connect with
+                        audiences, and build a stronger digital presence.
+                    </p>
+
+                </article>
+
+
+                <article class="expertise-card">
+
+                    <span class="card-number">02</span>
+
+                    <h3>
+                        Brand Strategy
+                    </h3>
+
+                    <p>
+                        Turning ideas and positioning into clearer,
+                        more intentional brand communication.
+                    </p>
+
+                </article>
+
+
+                <article class="expertise-card">
+
+                    <span class="card-number">03</span>
+
+                    <h3>
+                        Graphic Design
+                    </h3>
+
+                    <p>
+                        Creating visual communication that gives ideas
+                        structure, personality, and presence.
+                    </p>
+
+                </article>
+
+
+                <article class="expertise-card">
+
+                    <span class="card-number">04</span>
+
+                    <h3>
+                        Print Production
+                    </h3>
+
+                    <p>
+                        Bringing brand communication from digital concepts
+                        into tangible physical experiences.
+                    </p>
+
+                </article>
+
+
+                <article class="expertise-card">
+
+                    <span class="card-number">05</span>
+
+                    <h3>
+                        Communication
+                    </h3>
+
+                    <p>
+                        Making messages easier to understand, remember,
+                        and act on across different touchpoints.
+                    </p>
+
+                </article>
+
+
+                <article class="expertise-card">
+
+                    <span class="card-number">06</span>
+
+                    <h3>
+                        Brand Development
+                    </h3>
+
+                    <p>
+                        Helping shape how businesses present themselves
+                        consistently and professionally.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SELECTED WORK
+        ========================== -->
+
+        <section id="work" class="section work">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    Selected Work
+                </p>
+
+                <h2>
+                    A selection of what I create.
+                </h2>
+
+            </div>
+
+
+            <div class="work-grid">
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <span>Project 01</span>
+                    </div>
+
+                    <div class="project-info">
+
+                        <p class="project-category">
+                            Brand Identity
+                        </p>
+
+                        <h3>
+                            Project Title
+                        </h3>
+
+                        <p>
+                            A placeholder for a future branding,
+                            identity, or visual communication project.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <span>Project 02</span>
+                    </div>
+
+                    <div class="project-info">
+
+                        <p class="project-category">
+                            Digital Marketing
+                        </p>
+
+                        <h3>
+                            Project Title
+                        </h3>
+
+                        <p>
+                            A placeholder for a future digital marketing
+                            or communication project.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <span>Project 03</span>
+                    </div>
+
+                    <div class="project-info">
+
+                        <p class="project-category">
+                            Graphic Design
+                        </p>
+
+                        <h3>
+                            Project Title
+                        </h3>
+
+                        <p>
+                            A placeholder for a future graphic design
+                            or creative project.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section id="contact" class="section contact">
+
+            <div class="contact-content">
+
+                <p class="eyebrow">
+                    Contact
+                </p>
+
+                <h2>
+                    Let's create something meaningful.
+                </h2>
+
+                <p>
+                    Whether you have an idea, a project, or simply want
+                    to start a conversation, I'd be glad to hear from you.
+                </p>
+
+                <div class="contact-links">
+
+                    <!-- Replace these placeholders with your real links -->
+
+                    <a href="mailto:YOUR-EMAIL@example.com">
+                        Email Me
+                    </a>
+
+                    <a href="https://wa.me/YOUR-WHATSAPP-NUMBER">
+                        WhatsApp
+                    </a>
+
+                    <a href="YOUR-LINKEDIN-URL" target="_blank" rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+
+                    <a href="YOUR-INSTAGRAM-URL" target="_blank" rel="noopener noreferrer">
+                        Instagram
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-content">
+
+            <p>
+                Kazeem Ayomide Hammed
+            </p>
+
+            <p>
+                © 2026 Kazeem Ayomide Hammed. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
