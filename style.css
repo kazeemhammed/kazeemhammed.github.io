@@ -646,3 +646,197 @@ ul {
    END OF STYLES
    ========================================================= */
 Complete Phase 5 visual design
+/* =========================================================
+   PHASE 6 — MOBILE & RESPONSIVE DESIGN
+   ========================================================= */
+
+/* Prevent unwanted horizontal scrolling */
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Make all elements calculate their size more predictably */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   TABLETS
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    .container {
+        width: min(100% - 3rem, 1200px);
+    }
+
+    .hero {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .hero h1 {
+        font-size: clamp(4rem, 10vw, 7rem);
+        line-height: 0.95;
+    }
+
+    .hero p {
+        max-width: 650px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE PHONES
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    /* Page spacing */
+    .container {
+        width: min(100% - 2rem, 1200px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Navigation */
+    header {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* Hero section */
+    .hero {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    /* Hero eyebrow / small heading */
+    .hero .eyebrow {
+        font-size: 0.75rem;
+        letter-spacing: 0.18em;
+        line-height: 1.6;
+        max-width: 100%;
+    }
+
+    /* Main name */
+    .hero h1 {
+        font-size: clamp(3.5rem, 17vw, 6rem);
+        line-height: 0.9;
+        letter-spacing: -0.045em;
+        max-width: 100%;
+        overflow-wrap: break-word;
+        word-break: normal;
+    }
+
+    /* Hero headline / statement */
+    .hero h2,
+    .hero .hero-title {
+        font-size: clamp(2rem, 8vw, 3.5rem);
+        line-height: 1.05;
+        max-width: 100%;
+    }
+
+    /* Hero paragraph */
+    .hero p {
+        font-size: 1rem;
+        line-height: 1.7;
+        max-width: 100%;
+    }
+
+    /* Buttons */
+    .hero .buttons,
+    .hero .button-group,
+    .hero .cta-group {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.75rem;
+        width: 100%;
+    }
+
+    .hero .buttons a,
+    .hero .button-group a,
+    .hero .cta-group a {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Sections */
+    section {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    /* Prevent long words from breaking the layout */
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    a {
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 390px) {
+
+    .container {
+        width: min(100% - 1.5rem, 1200px);
+    }
+
+    .hero {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .hero h1 {
+        font-size: clamp(3rem, 16vw, 4.5rem);
+        line-height: 0.92;
+    }
+
+    .hero p {
+        font-size: 0.95rem;
+    }
+
+}
+
+
+/* =========================================================
+   ACCESSIBILITY — REDUCE MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+}
+Add responsive mobile design
