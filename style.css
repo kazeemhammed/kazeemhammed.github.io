@@ -419,7 +419,53 @@ ul {
 
 .project-image {
     min-height: 320px;
+.project-endric {
+    min-height: 360px;
+    background:
+        linear-gradient(
+            135deg,
+            #171717 0%,
+            #262626 55%,
+            #8a7550 100%
+        );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
 
+.project-endric::before {
+    content: "";
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 50%;
+}
+
+.project-image-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+}
+
+.project-image-content span {
+    display: block;
+    font-family: Georgia, serif;
+    font-size: clamp(2rem, 5vw, 4rem);
+    letter-spacing: -0.04em;
+}
+
+.project-image-content small {
+    display: block;
+    margin-top: 14px;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    color: #c7b58f;
+}
     display: flex;
     align-items: center;
     justify-content: center;
