@@ -417,7 +417,7 @@ ul {
     box-shadow: var(--shadow-soft);
 }
 
-.project-image .project-endric {
+.project-image {
     min-height: 420px !important;
 
     background:
