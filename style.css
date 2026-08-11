@@ -420,19 +420,8 @@ ul {
 .project-image {
     min-height: 420px !important;
 
-    background:
-        radial-gradient(
-            circle at 80% 80%,
-            rgba(154, 126, 75, 0.35),
-            transparent 45%
-        ),
-        linear-gradient(
-            135deg,
-            #0d0d0d 0%,
-            #171717 55%,
-            #302a20 100%
-        ) !important;
-
+     background: #f4f1e9;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -445,7 +434,7 @@ ul {
     position: relative;
     z-index: 2;
     text-align: center;
-    color: #ffffff;
+    color: #111111;
     padding: 30px;
 }
 
