@@ -417,21 +417,21 @@ ul {
     box-shadow: var(--shadow-soft);
 }
 
-.project-image {
-    .project-endric {
-    min-height: 420px;
+.project-image .project-endric {
+    min-height: 420px !important;
+
     background:
-    radial-gradient(
-        circle at 80% 80%,
-        rgba(154, 126, 75, 0.35),
-        transparent 45%
-    ),
-    linear-gradient(
-        135deg,
-        #0d0d0d 0%,
-        #171717 55%,
-        #302a20 100%
-    ) !important;
+        radial-gradient(
+            circle at 80% 80%,
+            rgba(154, 126, 75, 0.35),
+            transparent 45%
+        ),
+        linear-gradient(
+            135deg,
+            #0d0d0d 0%,
+            #171717 55%,
+            #302a20 100%
+        ) !important;
 
     display: flex;
     align-items: center;
